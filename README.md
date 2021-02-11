@@ -27,7 +27,7 @@ General simulation results are written by default, but additional data can be ob
 
 ### Using Docker
 From this folder, run 
-```docker run -it --name aquidneck --mount type=bind,source="$(pwd),target=/model paulopperman/sumo-docker:latest```
+```docker run -it --name aquidneck --mount type=bind,source="$(pwd)",target=/model paulopperman/sumo-docker:latest```
 and use the command line interface to run the desired simulation.
 
 ## Mapping Workflow
